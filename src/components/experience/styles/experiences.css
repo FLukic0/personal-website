@@ -1,0 +1,29 @@
+.experiences-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: -35px;
+	margin-right: -35px;
+}
+
+.experiences-list-experience-brief {
+	width: calc(100% / 3);
+	box-sizing: border-box;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.experiences-list-experience {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	overflow: hidden;
+}
+
+@media (max-width: 800px) {
+	.experiences-list-experience {
+		width: calc(100% / 2);
+	}
+}

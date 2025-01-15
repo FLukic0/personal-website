@@ -1,0 +1,29 @@
+.project-list-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-left: -35px;
+	margin-right: -35px;
+}
+
+.project-list-project-brief {
+	width: calc(100% / 3);
+	box-sizing: border-box;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.project-list-project {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	overflow: hidden;
+}
+
+@media (max-width: 600px) {
+	.project-list-project {
+		width: calc(100% / 2);
+	}
+}
