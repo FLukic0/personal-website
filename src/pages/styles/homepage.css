@@ -75,12 +75,12 @@
 
 .homepage-experiences {
 	flex-basis: 400px;
-	padding-top: 40px;
+	padding-top: 20px;
 }
 
 .homepage-projects {
 	flex-basis: 400px;
-	padding-top: 40px;
+	padding-top: 20px;
 }
 
 @media (max-width: 1024px) {

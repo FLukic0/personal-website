@@ -1,11 +1,12 @@
 :root {
 	/* ------- colors ------- */
 	--primary-colour: #acacb4;
-	--secondary-colour: #65656d;
+	--secondary-colour: #adadb1;
 	--tertiary-colour: #acacb4;
 	--quaternary-colour: #e4e4e7;
 	--link-colour: #14b8a6;
 	--hover-colour: #fafafa11;
+	--backgound-colour: #242424;
 	/* ---------------------- */
 
 	/* ------- fonts ------- */
